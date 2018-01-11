@@ -34,7 +34,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "repository": "dxcli/eslint-config-lint",
+  "repository": "dxcli/eslint-config-dxcli",
   "scripts": {
     "commitmsg": "commitlint -x @commitlint/config-conventional -e $GIT_PARAMS"
   }
