@@ -1,0 +1,34 @@
+---
+version: 2
+jobs:
+  release:
+    docker:
+      - image: node:latest
+    working_directory: ~/cli
+    steps:
+      - checkout
+      - restore_cache: &restore_cache
+          keys:
+            - v0-yarn-{{ .Environment.CIRCLE_JOB }}-{{checksum ".circleci/config.yml"}}-{{ .Branch }}-{{checksum "yarn.lock"}}
+            - v0-yarn-{{ .Environment.CIRCLE_JOB }}-{{checksum ".circleci/config.yml"}}-{{ .Branch }}-
+            - v0-yarn-{{ .Environment.CIRCLE_JOB }}-{{checksum ".circleci/config.yml"}}-master
+      - run: yarn
+      - run: npx semantic-release
+      - save_cache: &save_cache
+          key: v0-yarn-{{ .Environment.CIRCLE_JOB }}-{{checksum ".circleci/config.yml"}}-{{ .Branch }}-{{checksum "yarn.lock"}}
+          paths:
+            - ~/cli/node_modules
+            - ~/cli/test/fixtures/jest/node_modules
+            - /usr/local/share/.cache/yarn
+            - /usr/local/share/.config/yarn
+            - /usr/bin/shellcheck
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - release:
+          context: org-global
+          filters:
+            branches: {only: master}
+
