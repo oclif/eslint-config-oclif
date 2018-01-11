@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-dxcli",
   "description": "eslint config for dxcli",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Jeff Dickey @jdxcode",
   "config": {
     "commitizen": {
