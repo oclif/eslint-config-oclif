@@ -1,0 +1,8 @@
+{
+  "name": "@dxcli/lint",
+  "version": "0.0.0",
+  "description": "linting rules for dxcli",
+  "repository": "dxcli/lint",
+  "author": "Jeff Dickey @jdxcode",
+  "license": "MIT"
+}
