@@ -1,3 +1,11 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/dxcli/eslint-config-dxcli/compare/d04e7d17e9e045eb59947ef547b3fc25728971df...v1.1.0) (2018-01-12)
+
+
+### Features
+
+* relaxed rules a bit ([a3a4f5d](https://github.com/dxcli/eslint-config-dxcli/commit/a3a4f5d))
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/dxcli/eslint-config-dxcli/compare/06b1c982c6ffbd3db242d0dc73e5fb2e6c9be92c...v1.0.1) (2018-01-12)
 
