@@ -3,28 +3,15 @@
   "description": "eslint config for dxcli",
   "version": "1.0.0",
   "author": "Jeff Dickey @jdxcode",
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
   "dependencies": {
     "eslint-config-xo-space": "^0.17.0",
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-unicorn": "^3.0.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^6.0.1",
-    "@commitlint/config-conventional": "^5.2.3",
-    "@semantic-release/changelog": "^1.0.0",
-    "@semantic-release/git": "^2.0.1",
-    "@semantic-release/github": "^3.0.1",
-    "@semantic-release/npm": "^2.6.1",
-    "commitizen": "^2.9.6",
-    "cz-conventional-changelog": "^2.1.0",
+    "@dxcli/dev-semantic-release": "^0.0.2",
     "eslint": "^4.15.0",
-    "husky": "^0.14.3",
-    "semantic-release": "^11.0.2"
+    "husky": "^0.14.3"
   },
   "engines": {
     "node": ">= 8.0.0"
@@ -36,6 +23,6 @@
   "main": "index.js",
   "repository": "dxcli/eslint-config-dxcli",
   "scripts": {
-    "commitmsg": "commitlint -x @commitlint/config-conventional -e $GIT_PARAMS"
+    "commitmsg": "dxcli-dev-commitmsg"
   }
 }
