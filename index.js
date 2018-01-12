@@ -16,4 +16,8 @@ module.exports = {
     quotes: ['error', 'single'],
     semi: ['error', 'never'],
   },
+  globals: {
+    context: true,
+    it: true,
+  }
 }
