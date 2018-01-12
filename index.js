@@ -10,8 +10,10 @@ module.exports = {
     'unicorn',
   ],
   rules: {
+    'capitalized-comments': 0,
     'comma-dangle': ['error', 'always-multiline'],
-    semi: ['error', 'never'],
+    curly: 0,
     quotes: ['error', 'single'],
+    semi: ['error', 'never'],
   },
 }
