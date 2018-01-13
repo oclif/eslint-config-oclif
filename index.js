@@ -17,7 +17,7 @@ module.exports = {
     semi: ['error', 'never'],
   },
   globals: {
-    context: true,
+    describe: true,
     it: true,
   }
 }
