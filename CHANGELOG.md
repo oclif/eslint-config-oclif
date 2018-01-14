@@ -1,3 +1,11 @@
+<a name="1.1.4"></a>
+## [1.1.4](https://github.com/dxcli/eslint-config-dxcli/compare/b90afa5ed8eb2d8b267af11bfc77d8589a593671...v1.1.4) (2018-01-14)
+
+
+### Bug Fixes
+
+* allow string escape ([bcd6d14](https://github.com/dxcli/eslint-config-dxcli/commit/bcd6d14))
+
 <a name="1.1.3"></a>
 ## [1.1.3](https://github.com/dxcli/eslint-config-dxcli/compare/abf75aac313701a02928499d1b08ef86dfc25143...v1.1.3) (2018-01-14)
 
