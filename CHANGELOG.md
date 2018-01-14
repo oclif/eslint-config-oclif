@@ -1,3 +1,11 @@
+<a name="1.1.3"></a>
+## [1.1.3](https://github.com/dxcli/eslint-config-dxcli/compare/abf75aac313701a02928499d1b08ef86dfc25143...v1.1.3) (2018-01-14)
+
+
+### Bug Fixes
+
+* updated deps ([3c9f225](https://github.com/dxcli/eslint-config-dxcli/commit/3c9f225))
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/dxcli/eslint-config-dxcli/compare/b0e4fffcce594bf07e15d9134e5849563fa6a8da...v1.1.2) (2018-01-13)
 
