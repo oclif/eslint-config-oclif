@@ -13,7 +13,7 @@ module.exports = {
     'capitalized-comments': 0,
     'comma-dangle': ['error', 'always-multiline'],
     curly: 0,
-    quotes: ['error', 'single'],
+    quotes: ['error', 'single', {avoidEscape: true}],
     semi: ['error', 'never'],
   },
   globals: {
