@@ -1,3 +1,11 @@
+<a name="1.1.5"></a>
+## [1.1.5](https://github.com/dxcli/eslint-config-dxcli/compare/bcd6d14b032a1a5d210f65b74ae765ec2fc2f699...v1.1.5) (2018-01-27)
+
+
+### Bug Fixes
+
+* disable node/shebang ([7d4cbdb](https://github.com/dxcli/eslint-config-dxcli/commit/7d4cbdb))
+
 <a name="1.1.4"></a>
 ## [1.1.4](https://github.com/dxcli/eslint-config-dxcli/compare/b90afa5ed8eb2d8b267af11bfc77d8589a593671...v1.1.4) (2018-01-14)
 
