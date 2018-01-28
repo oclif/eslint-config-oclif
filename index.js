@@ -14,7 +14,6 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
     'default-case': 0,
     'node/shebang': 0,
-    'space-before-function-paren': ['error', 'always'],
     'unicorn/filename-case': ['error', {case: 'snakeCase'}],
     curly: 0,
     quotes: ['error', 'single', {avoidEscape: true}],
