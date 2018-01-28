@@ -1,3 +1,11 @@
+<a name="1.1.6"></a>
+## [1.1.6](https://github.com/dxcli/eslint-config-dxcli/compare/7d4cbdb11afb8c09d6d21f667f016ac526bd377a...v1.1.6) (2018-01-28)
+
+
+### Bug Fixes
+
+* update [@dxcli](https://github.com/dxcli)/semantic-release ([7d3b5d9](https://github.com/dxcli/eslint-config-dxcli/commit/7d3b5d9))
+
 <a name="1.1.5"></a>
 ## [1.1.5](https://github.com/dxcli/eslint-config-dxcli/compare/bcd6d14b032a1a5d210f65b74ae765ec2fc2f699...v1.1.5) (2018-01-27)
 
