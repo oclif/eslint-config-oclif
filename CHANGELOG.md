@@ -1,3 +1,11 @@
+<a name="1.1.7"></a>
+## [1.1.7](https://github.com/dxcli/eslint-config-dxcli/compare/7d3b5d992baa111572c5a95c10819d6040c7b2fd...v1.1.7) (2018-01-28)
+
+
+### Bug Fixes
+
+* use snake case ([9b7b650](https://github.com/dxcli/eslint-config-dxcli/commit/9b7b650))
+
 <a name="1.1.6"></a>
 ## [1.1.6](https://github.com/dxcli/eslint-config-dxcli/compare/7d4cbdb11afb8c09d6d21f667f016ac526bd377a...v1.1.6) (2018-01-28)
 
