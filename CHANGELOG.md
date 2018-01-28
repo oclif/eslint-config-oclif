@@ -1,3 +1,11 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/dxcli/eslint-config-dxcli/compare/9b7b650405da759bbc801049473800e72104515d...v1.2.0) (2018-01-28)
+
+
+### Features
+
+* set space-before-function-paren ([3b51d21](https://github.com/dxcli/eslint-config-dxcli/commit/3b51d21))
+
 <a name="1.1.7"></a>
 ## [1.1.7](https://github.com/dxcli/eslint-config-dxcli/compare/7d3b5d992baa111572c5a95c10819d6040c7b2fd...v1.1.7) (2018-01-28)
 
