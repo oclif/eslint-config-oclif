@@ -9,24 +9,10 @@
     "eslint-plugin-unicorn": "^3.0.1"
   },
   "devDependencies": {
-    "@dxcli/dev": "^1.1.2",
-    "@dxcli/dev-semantic-release": "^0.0.3",
-    "eslint": "^4.15.0",
-    "eslint-config-dxcli": "^1.1.4",
-    "husky": "^0.14.3",
-    "nyc": "^11.4.1"
-  },
-  "dxcli": {
-    "workflows": {
-      "test": [
-        "eslint .",
-        "commitlint --from master"
-      ],
-      "lint": [
-        "eslint .",
-        "commitlint --from master"
-      ]
-    }
+    "@dxcli/semantic-release": "^0.2.4",
+    "eslint": "^4.16.0",
+    "eslint-config-dxcli": "^1.1.5",
+    "husky": "^0.14.3"
   },
   "engines": {
     "node": ">= 8.0.0"
@@ -38,9 +24,7 @@
   "main": "index.js",
   "repository": "dxcli/eslint-config-dxcli",
   "scripts": {
-    "commitmsg": "dxcli-dev-commitmsg",
-    "lint": "dxcli-dev lint",
-    "test": "dxcli-dev test",
-    "precommit": "dxcli-dev lint"
+    "commitmsg": "dxcli-commitlint",
+    "precommit": "eslint ."
   }
 }

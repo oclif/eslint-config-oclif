@@ -12,6 +12,7 @@ module.exports = {
   rules: {
     'capitalized-comments': 0,
     'comma-dangle': ['error', 'always-multiline'],
+    'default-case': 0,
     'node/shebang': 0,
     curly: 0,
     quotes: ['error', 'single', {avoidEscape: true}],
