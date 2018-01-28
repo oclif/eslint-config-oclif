@@ -9,9 +9,9 @@
     "eslint-plugin-unicorn": "^3.0.1"
   },
   "devDependencies": {
-    "@dxcli/semantic-release": "^0.2.4",
+    "@dxcli/semantic-release": "^0.3.3",
     "eslint": "^4.16.0",
-    "eslint-config-dxcli": "^1.1.5",
+    "eslint-config-dxcli": "^1.1.7",
     "husky": "^0.14.3"
   },
   "engines": {
