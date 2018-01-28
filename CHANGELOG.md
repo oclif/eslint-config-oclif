@@ -1,3 +1,11 @@
+<a name="1.2.1"></a>
+## [1.2.1](https://github.com/dxcli/eslint-config-dxcli/compare/3b51d21c08b2fef5fb94e7b5fcdef157d1d8a90c...v1.2.1) (2018-01-28)
+
+
+### Bug Fixes
+
+* triggering release ([f7071fa](https://github.com/dxcli/eslint-config-dxcli/commit/f7071fa))
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/dxcli/eslint-config-dxcli/compare/9b7b650405da759bbc801049473800e72104515d...v1.2.0) (2018-01-28)
 
