@@ -11,7 +11,7 @@
   "devDependencies": {
     "@dxcli/semantic-release": "^0.3.3",
     "eslint": "^4.16.0",
-    "eslint-config-dxcli": "^1.1.7",
+    "eslint-config-dxcli": "^1.2.0",
     "husky": "^0.14.3"
   },
   "engines": {
@@ -25,6 +25,7 @@
   "repository": "dxcli/eslint-config-dxcli",
   "scripts": {
     "commitmsg": "dxcli-commitlint",
-    "precommit": "eslint ."
+    "precommit": "eslint .",
+    "test": "eslint ."
   }
 }
