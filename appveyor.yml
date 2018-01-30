@@ -8,8 +8,8 @@ install:
   - ps: Install-Product node $env:nodejs_version x64
   - git submodule sync
   - git submodule update --init --recursive
-  - git config --global user.email "dxcli@example.com"
-  - git config --global user.name "dxcli"
+  - git config --global user.email "anycli@example.com"
+  - git config --global user.name "anycli"
   - yarn
 test_script:
   - yarn test
