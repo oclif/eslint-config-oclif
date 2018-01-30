@@ -1,6 +1,8 @@
 eslint-config-dxcli
 ===================
 
+eslint config for dxcli
+
 [![Version](https://img.shields.io/npm/v/eslint-config-dxcli.svg)](https://npmjs.org/package/eslint-config-dxcli)
 [![CircleCI](https://circleci.com/gh/dxcli/eslint-config-dxcli/tree/master.svg?style=svg)](https://circleci.com/gh/dxcli/eslint-config-dxcli/tree/master)
 [![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/dxcli/eslint-config-dxcli?branch=master&svg=true)](https://ci.appveyor.com/project/heroku/eslint-config-dxcli/branch/master)
