@@ -1,3 +1,13 @@
+<a name="1.2.2"></a>
+## [1.2.2](https://github.com/anycli/eslint-config-anycli/compare/4622f1a10f6aebdcbdd905bcb52351dd2449f0d0...v1.2.2) (2018-01-31)
+
+
+### Bug Fixes
+
+* anycli rename ([d33c9e2](https://github.com/anycli/eslint-config-anycli/commit/d33c9e2))
+* anycli rename ([deccd74](https://github.com/anycli/eslint-config-anycli/commit/deccd74))
+* testing release ([d83d101](https://github.com/anycli/eslint-config-anycli/commit/d83d101))
+
 <a name="1.2.1"></a>
 ## [1.2.1](https://github.com/dxcli/eslint-config-dxcli/compare/3b51d21c08b2fef5fb94e7b5fcdef157d1d8a90c...v1.2.1) (2018-01-28)
 
