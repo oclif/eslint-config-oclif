@@ -7,6 +7,7 @@ module.exports = {
   ],
   plugins: [
     'node',
+    'mocha',
     'unicorn',
   ],
   rules: {
