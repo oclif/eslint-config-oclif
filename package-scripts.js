@@ -21,6 +21,5 @@ module.exports = {
     ...linters,
     lint: concurrent(linters),
     test,
-    release: 'anycli-semantic-release -e @anycli/semantic-release',
   },
 }

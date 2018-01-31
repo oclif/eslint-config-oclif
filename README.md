@@ -1,5 +1,5 @@
 eslint-config-anycli
-===================
+====================
 
 eslint config for anycli
 
