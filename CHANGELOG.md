@@ -1,3 +1,11 @@
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/anycli/eslint-config-anycli/compare/d83d1011b8313898625b69df5ae0083306895d9d...v1.3.0) (2018-01-31)
+
+
+### Features
+
+* added eslint-plugin-mocha ([1e659e8](https://github.com/anycli/eslint-config-anycli/commit/1e659e8))
+
 <a name="1.2.2"></a>
 ## [1.2.2](https://github.com/anycli/eslint-config-anycli/compare/4622f1a10f6aebdcbdd905bcb52351dd2449f0d0...v1.2.2) (2018-01-31)
 
