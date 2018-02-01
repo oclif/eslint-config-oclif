@@ -1,3 +1,11 @@
+<a name="1.3.1"></a>
+## [1.3.1](https://github.com/anycli/eslint-config-anycli/compare/1e659e8c734a63681680516ac58462b7eb5c4dce...v1.3.1) (2018-02-01)
+
+
+### Bug Fixes
+
+* make chains on same line ([b43cf05](https://github.com/anycli/eslint-config-anycli/commit/b43cf05))
+
 <a name="1.3.0"></a>
 # [1.3.0](https://github.com/anycli/eslint-config-anycli/compare/d83d1011b8313898625b69df5ae0083306895d9d...v1.3.0) (2018-01-31)
 
