@@ -1,3 +1,11 @@
+<a name="1.3.2"></a>
+## [1.3.2](https://github.com/anycli/eslint-config-anycli/compare/b43cf059fa7f4402853a5e4c6fca307fd1193252...v1.3.2) (2018-02-02)
+
+
+### Bug Fixes
+
+* remove no-multi-spaces ([d41418a](https://github.com/anycli/eslint-config-anycli/commit/d41418a))
+
 <a name="1.3.1"></a>
 ## [1.3.1](https://github.com/anycli/eslint-config-anycli/compare/1e659e8c734a63681680516ac58462b7eb5c4dce...v1.3.1) (2018-02-01)
 
