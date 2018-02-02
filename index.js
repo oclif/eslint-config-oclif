@@ -14,6 +14,7 @@ module.exports = {
     'capitalized-comments': 0,
     'comma-dangle': ['error', 'always-multiline'],
     'default-case': 0,
+    'no-multi-spaces': 0,
     'node/shebang': 0,
     'unicorn/filename-case': ['error', {case: 'snakeCase'}],
     curly: 0,
