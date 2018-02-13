@@ -1,3 +1,11 @@
+<a name="1.3.7"></a>
+## [1.3.7](https://github.com/oclif/eslint-config-oclif/compare/0c84b866598de2beca9a0cac393e5ea3e18a850b...v1.3.7) (2018-02-13)
+
+
+### Bug Fixes
+
+* updated deps ([db4ae0d](https://github.com/oclif/eslint-config-oclif/commit/db4ae0d))
+
 <a name="1.3.6"></a>
 ## [1.3.6](https://github.com/oclif/eslint-config-oclif/compare/0e4080de58f1a217a40ce706bb7eae62ed757451...v1.3.6) (2018-02-13)
 
