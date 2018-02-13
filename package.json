@@ -11,8 +11,7 @@
     "eslint-plugin-unicorn": "^3.0.1"
   },
   "devDependencies": {
-    "eslint": "^4.16.0",
-    "eslint-config-oclif": "^1.2.2"
+    "eslint": "^4.16.0"
   },
   "engines": {
     "node": ">= 8.0.0"
@@ -26,5 +25,8 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "repository": "oclif/eslint-config-oclif"
+  "repository": "oclif/eslint-config-oclif",
+  "scripts": {
+    "test": "eslint -c index.js ."
+  }
 }

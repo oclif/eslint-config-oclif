@@ -6,10 +6,7 @@ cache:
 
 install:
   - ps: Install-Product node $env:nodejs_version x64
-  - git submodule sync
-  - git submodule update --init --recursive
-  - git config --global user.email "oclif@example.com"
-  - git config --global user.name "oclif"
+  - yarn
 test_script:
   - yarn test
 after_test:
