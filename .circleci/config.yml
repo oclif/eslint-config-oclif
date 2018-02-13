@@ -40,14 +40,14 @@ jobs:
 
 workflows:
   version: 2
-  "eslint-config-anycli":
+  "eslint-config-oclif":
     jobs:
-      - node-latest
-      - node-8
+      # - node-latest
+      # - node-8
       - release:
           context: org-global
           filters:
             branches: {only: master}
-          requires:
-            - node-latest
-            - node-8
+          # requires:
+          #   - node-latest
+          #   - node-8
