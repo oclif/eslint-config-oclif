@@ -1,3 +1,11 @@
+<a name="1.3.6"></a>
+## [1.3.6](https://github.com/oclif/eslint-config-oclif/compare/0e4080de58f1a217a40ce706bb7eae62ed757451...v1.3.6) (2018-02-13)
+
+
+### Bug Fixes
+
+* updated eslint-plugin-node ([0c84b86](https://github.com/oclif/eslint-config-oclif/commit/0c84b86))
+
 <a name="1.3.5"></a>
 ## [1.3.5](https://github.com/oclif/eslint-config-oclif/compare/bd5172e7c282e294d7aba9ede59476255187f0f1...v1.3.5) (2018-02-13)
 
