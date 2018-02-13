@@ -1,3 +1,11 @@
+<a name="1.3.4"></a>
+## [1.3.4](https://github.com/oclif/eslint-config-oclif/compare/v1.3.3...v1.3.4) (2018-02-13)
+
+
+### Bug Fixes
+
+* testing release ([bd5172e](https://github.com/oclif/eslint-config-oclif/commit/bd5172e))
+
 <a name="1.3.2"></a>
 ## [1.3.2](https://github.com/anycli/eslint-config-anycli/compare/b43cf059fa7f4402853a5e4c6fca307fd1193252...v1.3.2) (2018-02-02)
 
