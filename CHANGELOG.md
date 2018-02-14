@@ -1,3 +1,11 @@
+<a name="1.3.8"></a>
+## [1.3.8](https://github.com/oclif/eslint-config-oclif/compare/db4ae0d65f5ccfc3daa69a98de4de8f1f79027f3...v1.3.8) (2018-02-14)
+
+
+### Bug Fixes
+
+* updated unicorn ([1294e45](https://github.com/oclif/eslint-config-oclif/commit/1294e45))
+
 <a name="1.3.7"></a>
 ## [1.3.7](https://github.com/oclif/eslint-config-oclif/compare/0c84b866598de2beca9a0cac393e5ea3e18a850b...v1.3.7) (2018-02-13)
 
