@@ -1,3 +1,11 @@
+<a name="1.4.0"></a>
+# [1.4.0](https://github.com/oclif/eslint-config-oclif/compare/1294e45513db15632324848c2736835a9fcceeea...v1.4.0) (2018-03-23)
+
+
+### Features
+
+* updated configs ([a3bf4b9](https://github.com/oclif/eslint-config-oclif/commit/a3bf4b9))
+
 <a name="1.3.8"></a>
 ## [1.3.8](https://github.com/oclif/eslint-config-oclif/compare/db4ae0d65f5ccfc3daa69a98de4de8f1f79027f3...v1.3.8) (2018-02-14)
 
