@@ -5,13 +5,13 @@
   "author": "Jeff Dickey @jdxcode",
   "bugs": "https://github.com/oclif/eslint-config-oclif/issues",
   "dependencies": {
-    "eslint-config-xo-space": "^0.17.0",
-    "eslint-plugin-mocha": "^4.11.0",
-    "eslint-plugin-node": "^6.0.0",
+    "eslint-config-xo-space": "^0.18.0",
+    "eslint-plugin-mocha": "^4.12.1",
+    "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-unicorn": "^4.0.2"
   },
   "devDependencies": {
-    "eslint": "^4.16.0"
+    "eslint": "^4.19.1"
   },
   "engines": {
     "node": ">= 8.0.0"
