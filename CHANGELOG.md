@@ -1,3 +1,11 @@
+<a name="1.5.1"></a>
+## [1.5.1](https://github.com/oclif/eslint-config-oclif/compare/v1.5.0...v1.5.1) (2018-05-31)
+
+
+### Bug Fixes
+
+* Remove snakeCase rule. ([#8](https://github.com/oclif/eslint-config-oclif/issues/8)) ([f8b5e78](https://github.com/oclif/eslint-config-oclif/commit/f8b5e78))
+
 <a name="1.4.0"></a>
 # [1.4.0](https://github.com/oclif/eslint-config-oclif/compare/1294e45513db15632324848c2736835a9fcceeea...v1.4.0) (2018-03-23)
 
