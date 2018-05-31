@@ -16,7 +16,6 @@ module.exports = {
     'default-case': 0,
     'no-multi-spaces': 0,
     'node/shebang': 0,
-    'unicorn/filename-case': ['error', {case: 'snakeCase'}],
     curly: 0,
     indent: ['error', 2, {SwitchCase: 0, MemberExpression: 0}],
     quotes: ['error', 'single', {avoidEscape: true}],
