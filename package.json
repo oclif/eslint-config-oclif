@@ -11,7 +11,7 @@
     "eslint-plugin-unicorn": "^4.0.3"
   },
   "devDependencies": {
-    "eslint": "^4.19.1"
+    "eslint": "^5.0.0"
   },
   "engines": {
     "node": ">= 8.0.0"
