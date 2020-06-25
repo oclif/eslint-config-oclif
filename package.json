@@ -6,7 +6,7 @@
   "bugs": "https://github.com/oclif/eslint-config-oclif/issues",
   "dependencies": {
     "eslint-config-xo-space": "^0.20.0",
-    "eslint-plugin-mocha": "^5.2.0",
+    "eslint-plugin-mocha": "^6.3.0",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-unicorn": "^6.0.1"
   },
