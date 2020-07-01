@@ -8,7 +8,7 @@
     "eslint-config-xo-space": "^0.25.0",
     "eslint-plugin-mocha": "^7.0.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-unicorn": "^9.1.1"
+    "eslint-plugin-unicorn": "^20.1.0"
   },
   "devDependencies": {
     "eslint": "^7.3.1"
