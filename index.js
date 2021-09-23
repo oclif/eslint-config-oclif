@@ -3,12 +3,10 @@ module.exports = {
     'eslint:recommended',
     'xo-space',
     'plugin:node/recommended',
-    'plugin:unicorn/recommended',
   ],
   plugins: [
     'node',
     'mocha',
-    'unicorn',
   ],
   rules: {
     'capitalized-comments': 0,
