@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
     'eslint:recommended',
-    'xo-space',
     'plugin:node/recommended',
+    'xo-space',
   ],
   plugins: [
     'node',
@@ -17,10 +17,10 @@ module.exports = {
     curly: 0,
     indent: ['error', 2, {SwitchCase: 0, MemberExpression: 0}],
     quotes: ['error', 'single', {avoidEscape: true}],
-    semi: ['error', 'never'],
+    semi: ['warn', 'always'],
   },
   globals: {
     describe: true,
     it: true,
   },
-}
+};
