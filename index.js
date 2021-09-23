@@ -1,12 +1,14 @@
-module.exports = {
+module.exports = { // eslint-disable-line unicorn/prefer-module
   extends: [
     'eslint:recommended',
-    'plugin:node/recommended',
     'xo-space',
+    'plugin:node/recommended',
+    'plugin:unicorn/recommended',
   ],
   plugins: [
     'node',
     'mocha',
+    'unicorn',
   ],
   rules: {
     'capitalized-comments': 0,
@@ -18,6 +20,7 @@ module.exports = {
     indent: ['error', 2, {SwitchCase: 0, MemberExpression: 0}],
     quotes: ['error', 'single', {avoidEscape: true}],
     semi: ['error', 'never'],
+    'unicorn/prevent-abbreviations': 'off',
   },
   globals: {
     describe: true,
