@@ -1,3 +1,11 @@
+## [3.1.2](https://github.com/oclif/eslint-config-oclif/compare/v3.1.1...v3.1.2) (2021-09-23)
+
+
+### Bug Fixes
+
+* allow release from BREAKING CHANGE commit message ([5920b19](https://github.com/oclif/eslint-config-oclif/commit/5920b19092d4ce6928a1b1dd5b54185ce6892be7))
+* remove semantic-release preset ([861c231](https://github.com/oclif/eslint-config-oclif/commit/861c2316cf8074a8608c449bd41d4c47be745e90))
+
 ## [3.1.1](https://github.com/oclif/eslint-config-oclif/compare/v3.1.0...v3.1.1) (2021-09-23)
 
 
