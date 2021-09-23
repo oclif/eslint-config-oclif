@@ -1,3 +1,10 @@
+## [3.1.1](https://github.com/oclif/eslint-config-oclif/compare/v3.1.0...v3.1.1) (2021-09-23)
+
+
+### Bug Fixes
+
+* allow release from main branch ([188f803](https://github.com/oclif/eslint-config-oclif/commit/188f8033dfb9fef9ef550201b0e6f66abbc4542f))
+
 <a name="1.5.1"></a>
 ## [1.5.1](https://github.com/oclif/eslint-config-oclif/compare/v1.5.0...v1.5.1) (2018-05-31)
 
