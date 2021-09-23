@@ -17,10 +17,10 @@ module.exports = {
     curly: 0,
     indent: ['error', 2, {SwitchCase: 0, MemberExpression: 0}],
     quotes: ['error', 'single', {avoidEscape: true}],
-    semi: ['warn', 'always'],
+    semi: ['error', 'never'],
   },
   globals: {
     describe: true,
     it: true,
   },
-};
+}
