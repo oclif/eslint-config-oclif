@@ -21,6 +21,7 @@ module.exports = { // eslint-disable-line unicorn/prefer-module
     quotes: ['error', 'single', {avoidEscape: true}],
     semi: ['error', 'never'],
     'unicorn/prevent-abbreviations': 'off',
+    'unicorn/no-null': 'off',
   },
   globals: {
     describe: true,
