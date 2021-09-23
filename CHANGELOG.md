@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/oclif/eslint-config-oclif/compare/v3.1.2...v4.0.0) (2021-09-23)
+
+
+### Features
+
+* update to latest standards and dependencies ([1659b8f](https://github.com/oclif/eslint-config-oclif/commit/1659b8f25d812330610a477d6fbf11d733489956))
+
+
+### BREAKING CHANGES
+
+* release new major version
+
 ## [3.1.2](https://github.com/oclif/eslint-config-oclif/compare/v3.1.1...v3.1.2) (2021-09-23)
 
 
