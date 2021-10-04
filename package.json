@@ -27,6 +27,7 @@
   "main": "index.js",
   "repository": "oclif/eslint-config-oclif",
   "scripts": {
-    "test": "eslint -c index.js ."
+    "test": "eslint -c index.js .",
+    "build": "echo 'nothing to build!'"
   }
 }
