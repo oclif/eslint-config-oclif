@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = { // eslint-disable-line unicorn/prefer-module
   extends: [
     'eslint:recommended',
     'xo-space',
@@ -20,6 +20,9 @@ module.exports = {
     indent: ['error', 2, {SwitchCase: 0, MemberExpression: 0}],
     quotes: ['error', 'single', {avoidEscape: true}],
     semi: ['error', 'never'],
+    'unicorn/prevent-abbreviations': 'off',
+    'unicorn/no-null': 'off',
+    'unicorn/prefer-module': 'warn',
   },
   globals: {
     describe: true,
