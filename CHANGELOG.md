@@ -1,3 +1,30 @@
+# [4.0.0](https://github.com/oclif/eslint-config-oclif/compare/v3.1.2...v4.0.0) (2021-09-23)
+
+
+### Features
+
+* update to latest standards and dependencies ([1659b8f](https://github.com/oclif/eslint-config-oclif/commit/1659b8f25d812330610a477d6fbf11d733489956))
+
+
+### BREAKING CHANGES
+
+* release new major version
+
+## [3.1.2](https://github.com/oclif/eslint-config-oclif/compare/v3.1.1...v3.1.2) (2021-09-23)
+
+
+### Bug Fixes
+
+* allow release from BREAKING CHANGE commit message ([5920b19](https://github.com/oclif/eslint-config-oclif/commit/5920b19092d4ce6928a1b1dd5b54185ce6892be7))
+* remove semantic-release preset ([861c231](https://github.com/oclif/eslint-config-oclif/commit/861c2316cf8074a8608c449bd41d4c47be745e90))
+
+## [3.1.1](https://github.com/oclif/eslint-config-oclif/compare/v3.1.0...v3.1.1) (2021-09-23)
+
+
+### Bug Fixes
+
+* allow release from main branch ([188f803](https://github.com/oclif/eslint-config-oclif/commit/188f8033dfb9fef9ef550201b0e6f66abbc4542f))
+
 <a name="1.5.1"></a>
 ## [1.5.1](https://github.com/oclif/eslint-config-oclif/compare/v1.5.0...v1.5.1) (2018-05-31)
 
