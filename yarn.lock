@@ -497,15 +497,17 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-xo-space@^0.27.0:
-  version "0.27.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-xo-space/-/eslint-config-xo-space-0.27.0.tgz#9663e41d7bedc0f345488377770565aa9b0085e0"
+eslint-config-xo-space@^0.30.0:
+  version "0.30.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-xo-space/-/eslint-config-xo-space-0.30.0.tgz#57df0b9e66507dac18f6690bd3ee30d20d08ef05"
+  integrity sha512-gjzwTFQGFum+vY3K/LOebnOUUfLxiuDa3JjphPXQpQRDrHPZhTmDa72r8fVmu9M4nrIs8rGZI/Pxhl3nFjk/Gw==
   dependencies:
-    eslint-config-xo "^0.35.0"
+    eslint-config-xo "^0.39.0"
 
-eslint-config-xo@^0.35.0:
-  version "0.35.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-xo/-/eslint-config-xo-0.35.0.tgz#8b5afca244c44129c32386c28602f973ad5cb762"
+eslint-config-xo@^0.39.0:
+  version "0.39.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-xo/-/eslint-config-xo-0.39.0.tgz#a76074270d5ecaa6655a740cbdc86eba621590b7"
+  integrity sha512-QX+ZnQgzy/UtgF8dksIiIBzpYoEKmiL0CmZ8O0Gnby7rGXg8Cny1CXirmHp1zKYIpO7BuTmtWj8eUYOsGr0IGQ==
   dependencies:
     confusing-browser-globals "1.0.10"
 
