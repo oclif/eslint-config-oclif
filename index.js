@@ -1,4 +1,4 @@
-module.exports = { // eslint-disable-line unicorn/prefer-module
+module.exports = {
   extends: [
     'eslint:recommended',
     'xo-space',
