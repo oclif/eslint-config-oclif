@@ -1,3 +1,12 @@
+## [5.0.2](https://github.com/oclif/eslint-config-oclif/compare/5.0.1...5.0.2) (2024-02-19)
+
+
+### Bug Fixes
+
+* **deps:** bump semver from 5.7.1 to 5.7.2 ([#108](https://github.com/oclif/eslint-config-oclif/issues/108)) ([408ea72](https://github.com/oclif/eslint-config-oclif/commit/408ea72d4ff75a2eac3a1ba13177b7eb047c01e3))
+
+
+
 ## [5.0.1](https://github.com/oclif/eslint-config-oclif/compare/5.0.0...5.0.1) (2024-02-19)
 
 
