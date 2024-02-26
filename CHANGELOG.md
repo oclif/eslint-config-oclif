@@ -1,3 +1,12 @@
+## [5.0.3](https://github.com/oclif/eslint-config-oclif/compare/5.0.2...5.0.3) (2024-02-26)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-config-xo-space from 0.34.0 to 0.35.0 ([#109](https://github.com/oclif/eslint-config-oclif/issues/109)) ([d62413f](https://github.com/oclif/eslint-config-oclif/commit/d62413ffba8c7be960fdbf7574cf0371037f500d))
+
+
+
 ## [5.0.2](https://github.com/oclif/eslint-config-oclif/compare/5.0.1...5.0.2) (2024-02-19)
 
 
