@@ -23,6 +23,7 @@ module.exports = {
     'unicorn/prevent-abbreviations': 'off',
     'unicorn/no-null': 'off',
     'unicorn/prefer-module': 'warn',
+    'logical-assignment-operators': 'off',
   },
   globals: {
     describe: true,
