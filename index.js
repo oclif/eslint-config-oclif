@@ -2,11 +2,11 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'xo-space',
-    'plugin:node/recommended',
+    'plugin:n/recommended',
     'plugin:unicorn/recommended',
   ],
   plugins: [
-    'node',
+    'n',
     'mocha',
     'unicorn',
   ],
@@ -15,7 +15,7 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
     'default-case': 0,
     'no-multi-spaces': 0,
-    'node/shebang': 0,
+    'n/shebang': 0,
     curly: 0,
     indent: ['error', 2, {SwitchCase: 0, MemberExpression: 0}],
     quotes: ['error', 'single', {avoidEscape: true}],
