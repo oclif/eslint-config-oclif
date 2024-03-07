@@ -1,3 +1,12 @@
+# [5.1.0](https://github.com/oclif/eslint-config-oclif/compare/5.0.4...5.1.0) (2024-03-07)
+
+
+### Features
+
+* Swap to using "eslint-plugin-n" ([#111](https://github.com/oclif/eslint-config-oclif/issues/111)) ([798e927](https://github.com/oclif/eslint-config-oclif/commit/798e9274a506424b2732f98331c377a4ff95d05d))
+
+
+
 ## [5.0.4](https://github.com/oclif/eslint-config-oclif/compare/5.0.3...5.0.4) (2024-03-04)
 
 
