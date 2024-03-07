@@ -1,3 +1,12 @@
+## [5.0.4](https://github.com/oclif/eslint-config-oclif/compare/5.0.3...5.0.4) (2024-03-04)
+
+
+### Bug Fixes
+
+* turn off logical operators ([e953f76](https://github.com/oclif/eslint-config-oclif/commit/e953f7679c8367588b6bbd9de3dd0cd5a4a63659))
+
+
+
 ## [5.0.3](https://github.com/oclif/eslint-config-oclif/compare/5.0.2...5.0.3) (2024-02-26)
 
 
