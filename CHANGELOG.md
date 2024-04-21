@@ -1,3 +1,12 @@
+## [5.1.3](https://github.com/oclif/eslint-config-oclif/compare/5.1.2...5.1.3) (2024-04-21)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-mocha from 10.4.2 to 10.4.3 ([4946e6c](https://github.com/oclif/eslint-config-oclif/commit/4946e6c0a60a6c1fd0d3d368b0de3a3c81c8b0cf))
+
+
+
 ## [5.1.2](https://github.com/oclif/eslint-config-oclif/compare/5.1.1...5.1.2) (2024-04-15)
 
 
