@@ -1,3 +1,12 @@
+# [5.2.0](https://github.com/oclif/eslint-config-oclif/compare/5.1.3...5.2.0) (2024-05-01)
+
+
+### Features
+
+* disable unicorn/no-await-expression-member ([#116](https://github.com/oclif/eslint-config-oclif/issues/116)) ([3b665ce](https://github.com/oclif/eslint-config-oclif/commit/3b665cee77db64d7daddba8ec90612918b038fc7))
+
+
+
 ## [5.1.3](https://github.com/oclif/eslint-config-oclif/compare/5.1.2...5.1.3) (2024-04-21)
 
 
