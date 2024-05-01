@@ -21,6 +21,7 @@ module.exports = {
     quotes: ['error', 'single', {avoidEscape: true}],
     semi: ['error', 'never'],
     'unicorn/prevent-abbreviations': 'off',
+    'unicorn/no-await-expression-member': 'off',
     'unicorn/no-null': 'off',
     'unicorn/prefer-module': 'warn',
     'logical-assignment-operators': 'off',
