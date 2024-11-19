@@ -1,3 +1,12 @@
+## [5.2.2](https://github.com/oclif/eslint-config-oclif/compare/5.2.1...5.2.2) (2024-11-19)
+
+
+### Bug Fixes
+
+* **deps:** bump cross-spawn from 7.0.3 to 7.0.6 ([c9b5de8](https://github.com/oclif/eslint-config-oclif/commit/c9b5de825d854c07044852a6118a0df37e0f2042))
+
+
+
 ## [5.2.1](https://github.com/oclif/eslint-config-oclif/compare/5.2.0...5.2.1) (2024-08-04)
 
 
