@@ -1,16 +1,16 @@
-import importPlugin from 'eslint-plugin-import'
-import perfectionist from 'eslint-plugin-perfectionist'
 import eslint from '@eslint/js'
-import nodePlugin from 'eslint-plugin-n'
-import tseslint from 'typescript-eslint'
-import jsdoc from 'eslint-plugin-jsdoc'
-import eslintPluginUnicorn from 'eslint-plugin-unicorn'
-import mocha from 'eslint-plugin-mocha'
 import xo from 'eslint-config-xo/space'
+import importPlugin from 'eslint-plugin-import'
+import jsdoc from 'eslint-plugin-jsdoc'
+import mocha from 'eslint-plugin-mocha'
+import nodePlugin from 'eslint-plugin-n'
+import perfectionist from 'eslint-plugin-perfectionist'
+import eslintPluginUnicorn from 'eslint-plugin-unicorn'
+import tseslint, {configs} from 'typescript-eslint'
 
 export default tseslint.config(
   eslint.configs.recommended,
-  tseslint.configs.recommended,
+  configs.recommended,
   ...xo,
   mocha.configs.flat.recommended,
   nodePlugin.configs['flat/recommended'],
@@ -25,11 +25,6 @@ export default tseslint.config(
     },
   },
   {
-    plugins: {
-      n: nodePlugin,
-      mocha,
-      unicorn: eslintPluginUnicorn,
-    },
     languageOptions: {
       globals: {
         describe: true,
@@ -37,60 +32,15 @@ export default tseslint.config(
         NodeJS: true,
       },
     },
-    settings: {
-      'import/parsers': {
-        '@typescript-eslint/parser': ['.ts', '.tsx'],
-      },
-      'import/resolver': {
-        typescript: {
-          alwaysTryTypes: true,
-        },
-      },
+    plugins: {
+      mocha,
+      n: nodePlugin,
+      unicorn: eslintPluginUnicorn,
     },
     rules: {
-      'mocha/no-setup-in-describe': 'off',
-      'mocha/no-mocha-arrows': 'off',
-      'mocha/no-async-describe': 'off',
-      'mocha/no-identical-title': 'off',
       '@stylistic/semi': 0,
-      'capitalized-comments': 0,
-      'comma-dangle': ['error', 'always-multiline'],
-      'default-case': 0,
-      'no-multi-spaces': 0,
-      'n/hashbang': 0,
-      curly: 0,
-      indent: [
-        'error',
-        2,
-        {
-          SwitchCase: 0,
-          MemberExpression: 0,
-        },
-      ],
-      quotes: [
-        'error',
-        'single',
-        {
-          avoidEscape: true,
-        },
-      ],
-      semi: ['error', 'never'],
-      'unicorn/prevent-abbreviations': 'off',
-      'unicorn/no-await-expression-member': 'off',
-      'unicorn/no-null': 'off',
-      'unicorn/prefer-module': 'warn',
-      'logical-assignment-operators': 'off',
-      'jsdoc/require-jsdoc': 'off',
-      'jsdoc/require-returns-type': 'off',
-      'jsdoc/tag-lines': 'off',
-      'jsdoc/require-returns': 'off',
-      'jsdoc/require-param': 'off',
-      'jsdoc/require-param-type': 'off',
-      'no-redeclare': 'off',
-      '@typescript-eslint/no-redeclare': 'off',
-      'no-dupe-class-members': 'off',
       '@typescript-eslint/no-dupe-class-members': 'error',
-      'no-unused-vars': 'off',
+      '@typescript-eslint/no-redeclare': 'off',
       '@typescript-eslint/no-unused-vars': [
         'error',
         {
@@ -99,12 +49,39 @@ export default tseslint.config(
       ],
       '@typescript-eslint/no-useless-constructor': 'error',
       '@typescript-eslint/no-var-requires': 'off',
+      'capitalized-comments': 0,
+      'comma-dangle': ['error', 'always-multiline'],
+      curly: 0,
+      'default-case': 0,
       'import/no-unresolved': 'error',
+      indent: [
+        'error',
+        2,
+        {
+          MemberExpression: 0,
+          SwitchCase: 0,
+        },
+      ],
+      'jsdoc/require-jsdoc': 'off',
+      'jsdoc/require-param': 'off',
+      'jsdoc/require-param-type': 'off',
+      'jsdoc/require-returns': 'off',
+      'jsdoc/require-returns-type': 'off',
+      'jsdoc/tag-lines': 'off',
+      'logical-assignment-operators': 'off',
+      'mocha/no-async-describe': 'off',
+      'mocha/no-identical-title': 'off',
+      'mocha/no-mocha-arrows': 'off',
+      'mocha/no-setup-in-describe': 'off',
+      'n/hashbang': 0,
       'n/no-missing-import': 'off',
       'n/no-unsupported-features/es-syntax': 'off',
+      'no-dupe-class-members': 'off',
+      'no-multi-spaces': 0,
+      'no-redeclare': 'off',
       'no-unused-expressions': 'off',
+      'no-unused-vars': 'off',
       'no-useless-constructor': 'off',
-      'perfectionist/sort-modules': 'off',
       'perfectionist/sort-classes': [
         'error',
         {
@@ -125,6 +102,29 @@ export default tseslint.config(
           type: 'alphabetical',
         },
       ],
+      'perfectionist/sort-modules': 'off',
+      quotes: [
+        'error',
+        'single',
+        {
+          avoidEscape: true,
+        },
+      ],
+      semi: ['error', 'never'],
+      'unicorn/no-await-expression-member': 'off',
+      'unicorn/no-null': 'off',
+      'unicorn/prefer-module': 'warn',
+      'unicorn/prevent-abbreviations': 'off',
+    },
+    settings: {
+      'import/parsers': {
+        '@typescript-eslint/parser': ['.ts', '.tsx'],
+      },
+      'import/resolver': {
+        typescript: {
+          alwaysTryTypes: true,
+        },
+      },
     },
   },
 )
