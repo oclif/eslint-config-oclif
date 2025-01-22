@@ -38,16 +38,6 @@ export default tseslint.config(
       unicorn: eslintPluginUnicorn,
     },
     rules: {
-      'unicorn/import-style': [
-        'error',
-        {
-          styles: {
-            'node:path': {
-              named: true,
-            },
-          },
-        },
-      ],
       '@stylistic/semi': 0,
       '@typescript-eslint/no-dupe-class-members': 'error',
       '@typescript-eslint/no-redeclare': 'off',
@@ -121,6 +111,16 @@ export default tseslint.config(
         },
       ],
       semi: ['error', 'never'],
+      'unicorn/import-style': [
+        'error',
+        {
+          styles: {
+            'node:path': {
+              named: true,
+            },
+          },
+        },
+      ],
       'unicorn/no-await-expression-member': 'off',
       'unicorn/no-null': 'off',
       'unicorn/prefer-module': 'warn',
