@@ -172,6 +172,14 @@
   resolved "https://registry.yarnpkg.com/@rtsao/scc/-/scc-1.1.0.tgz#927dd2fae9bc3361403ac2c7a00c32ddce9ad7e8"
   integrity sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==
 
+"@stylistic/eslint-plugin-js@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@stylistic/eslint-plugin-js/-/eslint-plugin-js-3.0.0.tgz#7e3abd27b10d669a70867a2cb77760fb3688cdaa"
+  integrity sha512-GAAeTmhxk+lUz2rgQvoaYOlhe9G8vYlgN8D81QdA6fJCJdfcKTr7lAlToGCPLB/0iJtT4JXGuJoNJBiu6EOgcw==
+  dependencies:
+    eslint-visitor-keys "^4.2.0"
+    espree "^10.3.0"
+
 "@stylistic/eslint-plugin@^2.6.1":
   version "2.13.0"
   resolved "https://registry.yarnpkg.com/@stylistic/eslint-plugin/-/eslint-plugin-2.13.0.tgz#53bf175dac8c1ec055b370a6ff77d491cae9a70d"
