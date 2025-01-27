@@ -14,6 +14,7 @@ export default tseslint.config(
   ...xo,
   mocha.configs.flat.recommended,
   nodePlugin.configs['flat/recommended'],
+  eslintPluginUnicorn.configs['flat/recommended'],
   importPlugin.flatConfigs.recommended,
   importPlugin.flatConfigs.typescript,
   perfectionist.configs['recommended-natural'],
@@ -35,9 +36,25 @@ export default tseslint.config(
     plugins: {
       mocha,
       n: nodePlugin,
-      unicorn: eslintPluginUnicorn,
     },
     rules: {
+      '@stylistic/comma-dangle': ['error', 'always-multiline'],
+      '@stylistic/indent': [
+        'error',
+        2,
+        {
+          MemberExpression: 0,
+          SwitchCase: 0,
+        },
+      ],
+      '@stylistic/no-multi-spaces': 0,
+      '@stylistic/quotes': [
+        'error',
+        'single',
+        {
+          avoidEscape: true,
+        },
+      ],
       '@stylistic/semi': 0,
       '@typescript-eslint/no-dupe-class-members': 'error',
       '@typescript-eslint/no-redeclare': 'off',
@@ -50,18 +67,9 @@ export default tseslint.config(
       '@typescript-eslint/no-useless-constructor': 'error',
       '@typescript-eslint/no-var-requires': 'off',
       'capitalized-comments': 0,
-      'comma-dangle': ['error', 'always-multiline'],
       curly: 0,
       'default-case': 0,
       'import/no-unresolved': 'error',
-      indent: [
-        'error',
-        2,
-        {
-          MemberExpression: 0,
-          SwitchCase: 0,
-        },
-      ],
       'jsdoc/require-jsdoc': 'off',
       'jsdoc/require-param': 'off',
       'jsdoc/require-param-type': 'off',
@@ -77,7 +85,6 @@ export default tseslint.config(
       'n/no-missing-import': 'off',
       'n/no-unsupported-features/es-syntax': 'off',
       'no-dupe-class-members': 'off',
-      'no-multi-spaces': 0,
       'no-redeclare': 'off',
       'no-unused-expressions': 'off',
       'no-unused-vars': 'off',
@@ -103,14 +110,6 @@ export default tseslint.config(
         },
       ],
       'perfectionist/sort-modules': 'off',
-      quotes: [
-        'error',
-        'single',
-        {
-          avoidEscape: true,
-        },
-      ],
-      semi: ['error', 'never'],
       'unicorn/import-style': [
         'error',
         {
