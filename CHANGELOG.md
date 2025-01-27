@@ -1,3 +1,41 @@
+# [6.0.0](https://github.com/oclif/eslint-config-oclif/compare/5.2.2...6.0.0) (2025-01-27)
+
+
+* feat!: migrate to eslint 9 (#122) ([b683efd](https://github.com/oclif/eslint-config-oclif/commit/b683efd30c6bb1c4b4ecc357476a575283179e15)), closes [#122](https://github.com/oclif/eslint-config-oclif/issues/122)
+
+
+### BREAKING CHANGES
+
+* use eslint 9 and assume typescript projects
+
+* ci: skip ts dep check
+
+* chore: pass linter
+
+* chore(release): 5.2.3-dev.0 [skip ci]
+
+* fix: update import-style rule
+
+* chore(release): 5.2.3-dev.1 [skip ci]
+
+* fix: linting
+
+* chore: update README
+
+* chore: bump minimum node version
+
+* chore: code review
+
+* chore(release): 5.2.3-dev.2 [skip ci]
+
+* chore: add stylistic
+
+* chore: add stylistic
+
+* chore(release): 5.2.3-dev.3 [skip ci]
+
+
+
 ## [5.2.2](https://github.com/oclif/eslint-config-oclif/compare/5.2.1...5.2.2) (2024-11-19)
 
 
