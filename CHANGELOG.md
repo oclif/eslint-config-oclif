@@ -1,3 +1,12 @@
+## [6.0.3](https://github.com/oclif/eslint-config-oclif/compare/6.0.2...6.0.3) (2025-02-03)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-jsdoc from 50.6.2 to 50.6.3 ([#125](https://github.com/oclif/eslint-config-oclif/issues/125)) ([566b899](https://github.com/oclif/eslint-config-oclif/commit/566b899c815fb8f503b731694e56c6aff3e0b00f))
+
+
+
 ## [6.0.2](https://github.com/oclif/eslint-config-oclif/compare/6.0.1...6.0.2) (2025-02-03)
 
 
