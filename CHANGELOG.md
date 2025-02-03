@@ -1,3 +1,12 @@
+## [6.0.2](https://github.com/oclif/eslint-config-oclif/compare/6.0.1...6.0.2) (2025-02-03)
+
+
+### Bug Fixes
+
+* **deps:** bump @stylistic/eslint-plugin from 3.0.0 to 3.0.1 ([#124](https://github.com/oclif/eslint-config-oclif/issues/124)) ([f0a3b2b](https://github.com/oclif/eslint-config-oclif/commit/f0a3b2baa936e297a67172d75d8ac72e069abdaa))
+
+
+
 ## [6.0.1](https://github.com/oclif/eslint-config-oclif/compare/6.0.0...6.0.1) (2025-02-03)
 
 
