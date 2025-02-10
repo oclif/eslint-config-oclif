@@ -5,7 +5,7 @@
   "author": "Salesforce",
   "bugs": "https://github.com/oclif/eslint-config-oclif/issues",
   "dependencies": {
-    "@eslint/compat": "^1.2.5",
+    "@eslint/compat": "^1.2.6",
     "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^9.19.0",
     "@stylistic/eslint-plugin": "^3.1.0",
