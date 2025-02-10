@@ -1,3 +1,12 @@
+## [6.0.10](https://github.com/oclif/eslint-config-oclif/compare/6.0.9...6.0.10) (2025-02-10)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 8.20.0 to 8.23.0 ([#130](https://github.com/oclif/eslint-config-oclif/issues/130)) ([81e8d74](https://github.com/oclif/eslint-config-oclif/commit/81e8d74d21c7f3d6ae49a5b7a5e3de54352c2245))
+
+
+
 ## [6.0.9](https://github.com/oclif/eslint-config-oclif/compare/6.0.8...6.0.9) (2025-02-10)
 
 
