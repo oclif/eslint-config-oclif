@@ -316,7 +316,7 @@
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-8.20.0.tgz#487de5314b5415dee075e95568b87a75a3e730cf"
   integrity sha512-cqaMiY72CkP+2xZRrFt3ExRBu0WmVitN/rYPZErA80mHjHx/Svgp8yfbzkJmDoQ/whcytOPO9/IZXnOc+wigRA==
 
-"@typescript-eslint/types@8.24.0", "@typescript-eslint/types@^8.23.0":
+"@typescript-eslint/types@8.24.0", "@typescript-eslint/types@^8.24.0":
   version "8.24.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-8.24.0.tgz#694e7fb18d70506c317b816de9521300b0f72c8e"
   integrity sha512-VacJCBTyje7HGAw7xp11q439A+zeGG0p0/p2zsZwpnMzjPB5WteaWqt4g2iysgGFafrqvyLWqq6ZPZAOCoefCw==
@@ -359,7 +359,7 @@
     "@typescript-eslint/types" "8.20.0"
     "@typescript-eslint/typescript-estree" "8.20.0"
 
-"@typescript-eslint/utils@8.24.0", "@typescript-eslint/utils@^8.13.0", "@typescript-eslint/utils@^8.23.0":
+"@typescript-eslint/utils@8.24.0", "@typescript-eslint/utils@^8.13.0", "@typescript-eslint/utils@^8.24.0":
   version "8.24.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-8.24.0.tgz#21cb1195ae79230af825bfeed59574f5cb70a749"
   integrity sha512-07rLuUBElvvEb1ICnafYWr4hk8/U7X9RDCOqd9JcAMtjh/9oRmcfN4yGzbPVirgMR0+HLVHehmu19CWeh7fsmQ==
@@ -1024,12 +1024,12 @@ eslint-plugin-n@^17.15.1:
     semver "^7.6.3"
 
 eslint-plugin-perfectionist@^4:
-  version "4.8.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-perfectionist/-/eslint-plugin-perfectionist-4.8.0.tgz#eb91a36c16f15af0b9bf5fc94385502f121370b2"
-  integrity sha512-ZF04IAPGItYMlj9xjgvvl/QpksZf79g0dkxbNcuxDjbcUSZ4CwucJ7h5Yzt5JuHe+i6igQbUYEp40j4ndfbvWQ==
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-perfectionist/-/eslint-plugin-perfectionist-4.9.0.tgz#c89c71dbcd1c8ebad0a435c822fceaf0c2e31835"
+  integrity sha512-76lDfJnonOcXGW3bEXuqhEGId0LrOlvIE1yLHvK/eKMMPOc0b43KchAIR2Bdbqlg+LPXU5/Q+UzuzkO+cWHT6w==
   dependencies:
-    "@typescript-eslint/types" "^8.23.0"
-    "@typescript-eslint/utils" "^8.23.0"
+    "@typescript-eslint/types" "^8.24.0"
+    "@typescript-eslint/utils" "^8.24.0"
     natural-orderby "^5.0.0"
 
 eslint-plugin-unicorn@^48.0.1:
