@@ -1,3 +1,12 @@
+## [6.0.17](https://github.com/oclif/eslint-config-oclif/compare/6.0.16...6.0.17) (2025-02-23)
+
+
+### Bug Fixes
+
+* **deps:** bump @eslint/js from 9.20.0 to 9.21.0 ([a790af9](https://github.com/oclif/eslint-config-oclif/commit/a790af99e17858d548129b8346b8b58a335e25c9))
+
+
+
 ## [6.0.16](https://github.com/oclif/eslint-config-oclif/compare/6.0.15...6.0.16) (2025-02-23)
 
 
