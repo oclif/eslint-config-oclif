@@ -1,3 +1,12 @@
+## [6.0.42](https://github.com/oclif/eslint-config-oclif/compare/6.0.41...6.0.42) (2025-04-06)
+
+
+### Bug Fixes
+
+* **deps:** bump @eslint/compat from 1.2.7 to 1.2.8 ([4efb963](https://github.com/oclif/eslint-config-oclif/commit/4efb963fe75a3cb75c7a8ec488d35ae766779f25))
+
+
+
 ## [6.0.41](https://github.com/oclif/eslint-config-oclif/compare/6.0.40...6.0.41) (2025-04-06)
 
 
