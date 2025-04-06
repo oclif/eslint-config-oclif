@@ -327,7 +327,7 @@
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-8.26.1.tgz#d5978721670cff263348d5062773389231a64132"
   integrity sha512-n4THUQW27VmQMx+3P+B0Yptl7ydfceUj4ON/AQILAASwgYdZ/2dhfymRMh5egRUrvK5lSmaOm77Ry+lmXPOgBQ==
 
-"@typescript-eslint/types@8.29.0", "@typescript-eslint/types@^8.26.0":
+"@typescript-eslint/types@8.29.0", "@typescript-eslint/types@^8.29.0":
   version "8.29.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-8.29.0.tgz#65add70ab4ef66beaa42a5addf87dab2b05b1f33"
   integrity sha512-wcJL/+cOXV+RE3gjCyl/V2G877+2faqvlgtso/ZRbTCnZazh0gXhe+7gbAnfubzN2bNsBtZjDvlh7ero8uIbzg==
@@ -360,7 +360,7 @@
     semver "^7.6.0"
     ts-api-utils "^2.0.1"
 
-"@typescript-eslint/utils@8.26.1", "@typescript-eslint/utils@^8.13.0", "@typescript-eslint/utils@^8.26.0":
+"@typescript-eslint/utils@8.26.1":
   version "8.26.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-8.26.1.tgz#54cc58469955f25577f659753b71a0e117a0539f"
   integrity sha512-V4Urxa/XtSUroUrnI7q6yUTD3hDtfJ2jzVfeT3VK0ciizfK2q/zGC0iDh1lFMUZR8cImRrep6/q0xd/1ZGPQpg==
@@ -369,6 +369,16 @@
     "@typescript-eslint/scope-manager" "8.26.1"
     "@typescript-eslint/types" "8.26.1"
     "@typescript-eslint/typescript-estree" "8.26.1"
+
+"@typescript-eslint/utils@^8.13.0", "@typescript-eslint/utils@^8.29.0":
+  version "8.29.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-8.29.0.tgz#d6d22b19c8c4812a874f00341f686b45b9fe895f"
+  integrity sha512-gX/A0Mz9Bskm8avSWFcK0gP7cZpbY4AIo6B0hWYFCaIsz750oaiWR4Jr2CI+PQhfW1CpcQr9OlfPS+kMFegjXA==
+  dependencies:
+    "@eslint-community/eslint-utils" "^4.4.0"
+    "@typescript-eslint/scope-manager" "8.29.0"
+    "@typescript-eslint/types" "8.29.0"
+    "@typescript-eslint/typescript-estree" "8.29.0"
 
 "@typescript-eslint/visitor-keys@8.26.1":
   version "8.26.1"
@@ -1102,12 +1112,12 @@ eslint-plugin-n@^17.17.0:
     semver "^7.6.3"
 
 eslint-plugin-perfectionist@^4:
-  version "4.10.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-perfectionist/-/eslint-plugin-perfectionist-4.10.1.tgz#62a24984a9e891ff19d20f8150ff42e713a4017f"
-  integrity sha512-GXwFfL47RfBLZRGQdrvGZw9Ali2T2GPW8p4Gyj2fyWQ9396R/HgJMf0m9kn7D6WXRwrINfTDGLS+QYIeok9qEg==
+  version "4.11.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-perfectionist/-/eslint-plugin-perfectionist-4.11.0.tgz#e1f4e6651aaa1f36785ec2611b91f49c5320d614"
+  integrity sha512-5s+ehXydnLPQpLDj5mJ0CnYj2fQe6v6gKA3tS+FZVBLzwMOh8skH+l+1Gni08rG0SdEcNhJyjQp/mEkDYK8czw==
   dependencies:
-    "@typescript-eslint/types" "^8.26.0"
-    "@typescript-eslint/utils" "^8.26.0"
+    "@typescript-eslint/types" "^8.29.0"
+    "@typescript-eslint/utils" "^8.29.0"
     natural-orderby "^5.0.0"
 
 eslint-plugin-unicorn@^48.0.1:
