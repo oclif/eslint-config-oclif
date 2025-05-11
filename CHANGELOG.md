@@ -1,3 +1,12 @@
+## [6.0.55](https://github.com/oclif/eslint-config-oclif/compare/6.0.54...6.0.55) (2025-05-11)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-import-resolver-typescript from 3.10.0 to 3.10.1 ([16bb3fe](https://github.com/oclif/eslint-config-oclif/commit/16bb3fee273305932ad14d19d285013c15c2603a))
+
+
+
 ## [6.0.54](https://github.com/oclif/eslint-config-oclif/compare/6.0.53...6.0.54) (2025-05-04)
 
 
