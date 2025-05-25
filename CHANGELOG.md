@@ -1,3 +1,12 @@
+## [6.0.59](https://github.com/oclif/eslint-config-oclif/compare/6.0.58...6.0.59) (2025-05-25)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-perfectionist from 4.12.3 to 4.13.0 ([4f62c13](https://github.com/oclif/eslint-config-oclif/commit/4f62c131f801b933114772bb4f5ee9f95abb6771))
+
+
+
 ## [6.0.58](https://github.com/oclif/eslint-config-oclif/compare/6.0.57...6.0.58) (2025-05-18)
 
 
