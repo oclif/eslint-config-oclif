@@ -1,3 +1,12 @@
+## [6.0.60](https://github.com/oclif/eslint-config-oclif/compare/6.0.59...6.0.60) (2025-05-25)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-config-xo from 0.46.0 to 0.47.0 ([f2b1c3b](https://github.com/oclif/eslint-config-oclif/commit/f2b1c3b00259760e7fd4989076f0583b13b699c0))
+
+
+
 ## [6.0.59](https://github.com/oclif/eslint-config-oclif/compare/6.0.58...6.0.59) (2025-05-25)
 
 
