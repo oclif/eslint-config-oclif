@@ -39,6 +39,7 @@ export default tseslint.config(
     },
     rules: {
       '@stylistic/comma-dangle': ['error', 'always-multiline'],
+      '@stylistic/curly-newline': ['off'],
       '@stylistic/indent': [
         'error',
         2,
