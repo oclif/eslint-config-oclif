@@ -1,3 +1,12 @@
+## [6.0.66](https://github.com/oclif/eslint-config-oclif/compare/6.0.65...6.0.66) (2025-06-02)
+
+
+### Bug Fixes
+
+* disable curly-newline ([79dc776](https://github.com/oclif/eslint-config-oclif/commit/79dc776ff2ba871c5f2d5b5569a72857cf15b24f))
+
+
+
 ## [6.0.65](https://github.com/oclif/eslint-config-oclif/compare/6.0.64...6.0.65) (2025-06-01)
 
 
