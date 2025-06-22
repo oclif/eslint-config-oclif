@@ -1,3 +1,12 @@
+## [6.0.74](https://github.com/oclif/eslint-config-oclif/compare/6.0.73...6.0.74) (2025-06-22)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-import from 2.31.0 to 2.32.0 ([6f5afef](https://github.com/oclif/eslint-config-oclif/commit/6f5afef70ac2bbee6670d9470781ca4549e42acf))
+
+
+
 ## [6.0.73](https://github.com/oclif/eslint-config-oclif/compare/6.0.72...6.0.73) (2025-06-22)
 
 
