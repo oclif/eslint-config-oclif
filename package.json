@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-oclif",
   "description": "eslint config for oclif",
-  "version": "6.0.92",
+  "version": "6.0.93",
   "author": "Salesforce",
   "bugs": "https://github.com/oclif/eslint-config-oclif/issues",
   "dependencies": {
