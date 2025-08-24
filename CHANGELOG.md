@@ -1,3 +1,12 @@
+## [6.0.97](https://github.com/oclif/eslint-config-oclif/compare/6.0.96...6.0.97) (2025-08-24)
+
+
+### Bug Fixes
+
+* **deps:** bump @eslint/js from 9.33.0 to 9.34.0 ([1f3078f](https://github.com/oclif/eslint-config-oclif/commit/1f3078ff0c7bde20a80b9fd8992e74989164e371))
+
+
+
 ## [6.0.96](https://github.com/oclif/eslint-config-oclif/compare/6.0.95...6.0.96) (2025-08-24)
 
 
