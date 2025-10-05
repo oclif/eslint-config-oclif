@@ -369,15 +369,10 @@
     debug "^4.3.4"
     ts-api-utils "^2.1.0"
 
-"@typescript-eslint/types@8.45.0", "@typescript-eslint/types@^8.45.0":
+"@typescript-eslint/types@8.45.0", "@typescript-eslint/types@^8.11.0", "@typescript-eslint/types@^8.38.0", "@typescript-eslint/types@^8.45.0":
   version "8.45.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-8.45.0.tgz#fc01cd2a4690b9713b02f895e82fb43f7d960684"
   integrity sha512-WugXLuOIq67BMgQInIxxnsSyRLFxdkJEJu8r4ngLR56q/4Q5LrbfkFRH27vMTjxEK8Pyz7QfzuZe/G15qQnVRA==
-
-"@typescript-eslint/types@^8.11.0", "@typescript-eslint/types@^8.34.1", "@typescript-eslint/types@^8.38.0":
-  version "8.41.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-8.41.0.tgz#9935afeaae65e535abcbcee95383fa649c64d16d"
-  integrity sha512-9EwxsWdVqh42afLbHP90n2VdHaWU/oWgbH2P0CfcNfdKL7CuKpwMQGjwev56vWu9cSKU7FWSu6r9zck6CVfnag==
 
 "@typescript-eslint/typescript-estree@8.45.0":
   version "8.45.0"
@@ -395,7 +390,7 @@
     semver "^7.6.0"
     ts-api-utils "^2.1.0"
 
-"@typescript-eslint/utils@8.45.0", "@typescript-eslint/utils@^8.13.0", "@typescript-eslint/utils@^8.34.1":
+"@typescript-eslint/utils@8.45.0", "@typescript-eslint/utils@^8.13.0", "@typescript-eslint/utils@^8.38.0":
   version "8.45.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-8.45.0.tgz#6e68e92d99019fdf56018d0e6664c76a70470c95"
   integrity sha512-bxi1ht+tLYg4+XV2knz/F7RVhU0k6VrSMc9sb8DQ6fyCTrGQLHfo7lDtN0QJjZjKkLA2ThrKuCdHEvLReqtIGg==
@@ -1222,12 +1217,12 @@ eslint-plugin-n@^17.22.0:
     ts-declaration-location "^1.0.6"
 
 eslint-plugin-perfectionist@^4:
-  version "4.15.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-perfectionist/-/eslint-plugin-perfectionist-4.15.0.tgz#320029162b0ec439af522d5b146903f0e47bfbd4"
-  integrity sha512-pC7PgoXyDnEXe14xvRUhBII8A3zRgggKqJFx2a82fjrItDs1BSI7zdZnQtM2yQvcyod6/ujmzb7ejKPx8lZTnw==
+  version "4.15.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-perfectionist/-/eslint-plugin-perfectionist-4.15.1.tgz#d38e80b2442d83b0a6482d2079cfd63dd53266d9"
+  integrity sha512-MHF0cBoOG0XyBf7G0EAFCuJJu4I18wy0zAoT1OHfx2o6EOx1EFTIzr2HGeuZa1kDcusoX0xJ9V7oZmaeFd773Q==
   dependencies:
-    "@typescript-eslint/types" "^8.34.1"
-    "@typescript-eslint/utils" "^8.34.1"
+    "@typescript-eslint/types" "^8.38.0"
+    "@typescript-eslint/utils" "^8.38.0"
     natural-orderby "^5.0.0"
 
 eslint-plugin-unicorn@^48.0.1:
