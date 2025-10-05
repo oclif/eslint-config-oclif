@@ -1,3 +1,12 @@
+## [6.0.107](https://github.com/oclif/eslint-config-oclif/compare/6.0.106...6.0.107) (2025-10-05)
+
+
+### Bug Fixes
+
+* **deps:** bump typescript-eslint from 8.44.1 to 8.45.0 ([cbd99c2](https://github.com/oclif/eslint-config-oclif/commit/cbd99c277221ccdebd3d758feb6c52b5ee9dfdba))
+
+
+
 ## [6.0.106](https://github.com/oclif/eslint-config-oclif/compare/6.0.105...6.0.106) (2025-09-28)
 
 
