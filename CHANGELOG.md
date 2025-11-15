@@ -1,3 +1,12 @@
+## [6.0.117](https://github.com/oclif/eslint-config-oclif/compare/6.0.116...6.0.117) (2025-11-15)
+
+
+### Bug Fixes
+
+* **deps:** bump js-yaml from 4.1.0 to 4.1.1 ([dee2d1d](https://github.com/oclif/eslint-config-oclif/commit/dee2d1d6ffd593aba309a14c3fb08d207015d86e))
+
+
+
 ## [6.0.116](https://github.com/oclif/eslint-config-oclif/compare/6.0.115...6.0.116) (2025-11-09)
 
 
