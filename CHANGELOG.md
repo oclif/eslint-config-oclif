@@ -1,3 +1,12 @@
+## [6.0.144](https://github.com/oclif/eslint-config-oclif/compare/6.0.143...6.0.144) (2026-02-22)
+
+
+### Bug Fixes
+
+* **deps:** bump ajv from 6.12.6 to 6.14.0 ([67378cc](https://github.com/oclif/eslint-config-oclif/commit/67378cc7b94f02909031fc318d4eabc9300294fd))
+
+
+
 ## [6.0.143](https://github.com/oclif/eslint-config-oclif/compare/6.0.142...6.0.143) (2026-02-22)
 
 
