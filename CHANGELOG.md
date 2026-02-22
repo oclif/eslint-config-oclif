@@ -1,3 +1,12 @@
+## [6.0.142](https://github.com/oclif/eslint-config-oclif/compare/6.0.141...6.0.142) (2026-02-22)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-n from 17.23.2 to 17.24.0 ([2be0b86](https://github.com/oclif/eslint-config-oclif/commit/2be0b86e4a6c67bf3866d59fa99c8b581610ad41))
+
+
+
 ## [6.0.141](https://github.com/oclif/eslint-config-oclif/compare/6.0.140...6.0.141) (2026-02-22)
 
 
