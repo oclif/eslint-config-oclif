@@ -1,3 +1,12 @@
+## [6.0.146](https://github.com/oclif/eslint-config-oclif/compare/6.0.145...6.0.146) (2026-03-01)
+
+
+### Bug Fixes
+
+* **deps:** bump @eslint/eslintrc from 3.3.3 to 3.3.4 ([b97ab46](https://github.com/oclif/eslint-config-oclif/commit/b97ab468a443e07378dfa8b24e0c1aa537150351))
+
+
+
 ## [6.0.145](https://github.com/oclif/eslint-config-oclif/compare/6.0.144...6.0.145) (2026-03-01)
 
 
