@@ -1,3 +1,12 @@
+## [6.0.151](https://github.com/oclif/eslint-config-oclif/compare/6.0.150...6.0.151) (2026-03-21)
+
+
+### Bug Fixes
+
+* **deps:** bump flatted from 3.3.2 to 3.4.2 ([af351e4](https://github.com/oclif/eslint-config-oclif/commit/af351e4a95165c8773d96f18c7d8b51902e746f3))
+
+
+
 ## [6.0.150](https://github.com/oclif/eslint-config-oclif/compare/6.0.149...6.0.150) (2026-03-15)
 
 
