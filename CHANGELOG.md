@@ -1,3 +1,12 @@
+## [6.0.153](https://github.com/oclif/eslint-config-oclif/compare/6.0.152...6.0.153) (2026-03-26)
+
+
+### Bug Fixes
+
+* **deps:** bump picomatch from 4.0.2 to 4.0.4 ([5fd648a](https://github.com/oclif/eslint-config-oclif/commit/5fd648ad774f8e4b655200d20b9a45cc7fe9efa3))
+
+
+
 ## [6.0.152](https://github.com/oclif/eslint-config-oclif/compare/6.0.151...6.0.152) (2026-03-22)
 
 
