@@ -1,3 +1,12 @@
+## [6.0.156](https://github.com/oclif/eslint-config-oclif/compare/6.0.155...6.0.156) (2026-04-05)
+
+
+### Bug Fixes
+
+* **deps:** bump lodash from 4.17.23 to 4.18.1 ([f2281be](https://github.com/oclif/eslint-config-oclif/commit/f2281be3d45985668da4555151525e78d73fac41))
+
+
+
 ## [6.0.155](https://github.com/oclif/eslint-config-oclif/compare/6.0.154...6.0.155) (2026-04-05)
 
 
