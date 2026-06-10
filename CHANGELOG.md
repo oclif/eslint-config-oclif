@@ -1,3 +1,12 @@
+## [6.0.169](https://github.com/oclif/eslint-config-oclif/compare/6.0.168...6.0.169) (2026-06-10)
+
+
+### Bug Fixes
+
+* removing redundant dependency on past version @W-21782254@ ([8aa6d18](https://github.com/oclif/eslint-config-oclif/commit/8aa6d18142e0f63c95460f75067beeae32b6ce43))
+
+
+
 ## [6.0.168](https://github.com/oclif/eslint-config-oclif/compare/6.0.167...6.0.168) (2026-06-07)
 
 
