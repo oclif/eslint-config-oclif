@@ -1,22 +1,22 @@
 import eslint from '@eslint/js'
-import xo from 'eslint-config-xo/space'
-import importPlugin from 'eslint-plugin-import'
+import stylistic from '@stylistic/eslint-plugin'
+import xo from 'eslint-config-xo'
 import jsdoc from 'eslint-plugin-jsdoc'
 import mocha from 'eslint-plugin-mocha'
 import nodePlugin from 'eslint-plugin-n'
 import perfectionist from 'eslint-plugin-perfectionist'
-import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 import tseslint, {configs} from 'typescript-eslint'
+
+// Strip the plugins key from the import-plugin-n plugin, so that it doesn't conflict with the one used by xo.
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const {plugins: _, ...nodeRecommended} = nodePlugin.configs['flat/recommended']
 
 export default tseslint.config(
   eslint.configs.recommended,
   configs.recommended,
-  ...xo,
-  mocha.configs.flat.recommended,
-  nodePlugin.configs['flat/recommended'],
-  eslintPluginUnicorn.configs['flat/recommended'],
-  importPlugin.flatConfigs.recommended,
-  importPlugin.flatConfigs.typescript,
+  ...xo({space: true}).filter(c => ['xo/base', 'xo/ignores', 'xo/typescript'].includes(c.name)),
+  mocha.configs.recommended,
+  nodeRecommended,
   perfectionist.configs['recommended-natural'],
   jsdoc.configs['flat/recommended'],
   {
@@ -34,8 +34,7 @@ export default tseslint.config(
       },
     },
     plugins: {
-      mocha,
-      n: nodePlugin,
+      '@stylistic': stylistic,
     },
     rules: {
       '@stylistic/comma-dangle': ['error', 'always-multiline'],
@@ -70,7 +69,7 @@ export default tseslint.config(
       'capitalized-comments': 0,
       curly: 0,
       'default-case': 0,
-      'import/no-unresolved': 'error',
+      'import-x/no-unresolved': 'error',
       'jsdoc/require-jsdoc': 'off',
       'jsdoc/require-param': 'off',
       'jsdoc/require-param-type': 'off',
@@ -127,10 +126,10 @@ export default tseslint.config(
       'unicorn/prevent-abbreviations': 'off',
     },
     settings: {
-      'import/parsers': {
+      'import-x/parsers': {
         '@typescript-eslint/parser': ['.ts', '.tsx'],
       },
-      'import/resolver': {
+      'import-x/resolver': {
         typescript: {
           alwaysTryTypes: true,
         },
