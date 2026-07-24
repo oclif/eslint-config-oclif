@@ -56,6 +56,7 @@ export default tseslint.config(
         },
       ],
       '@stylistic/semi': 0,
+      '@typescript-eslint/no-deprecated': 'off',
       '@typescript-eslint/no-dupe-class-members': 'error',
       '@typescript-eslint/no-redeclare': 'off',
       '@typescript-eslint/no-unused-vars': [
@@ -77,12 +78,13 @@ export default tseslint.config(
       'jsdoc/require-returns-type': 'off',
       'jsdoc/tag-lines': 'off',
       'logical-assignment-operators': 'off',
-      'mocha/no-async-describe': 'off',
+      'mocha/no-async-suite': 'off',
       'mocha/no-identical-title': 'off',
       'mocha/no-mocha-arrows': 'off',
       'mocha/no-setup-in-describe': 'off',
       'n/hashbang': 0,
       'n/no-missing-import': 'off',
+      'n/no-process-exit': 'off', // Disabled in favor of unicorn/no-process-exit
       'n/no-unsupported-features/es-syntax': 'off',
       'no-dupe-class-members': 'off',
       'no-redeclare': 'off',
@@ -120,10 +122,11 @@ export default tseslint.config(
           },
         },
       ],
+      'unicorn/name-replacements': 'off',
       'unicorn/no-await-expression-member': 'off',
       'unicorn/no-null': 'off',
+      'unicorn/no-useless-coercion': 'off', //  Disabled in favor of @typescript-eslint/no-unnecessary-type-conversion
       'unicorn/prefer-module': 'warn',
-      'unicorn/prevent-abbreviations': 'off',
     },
     settings: {
       'import-x/parsers': {
