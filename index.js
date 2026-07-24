@@ -77,7 +77,7 @@ export default tseslint.config(
       'jsdoc/require-returns-type': 'off',
       'jsdoc/tag-lines': 'off',
       'logical-assignment-operators': 'off',
-      'mocha/no-async-describe': 'off',
+      'mocha/no-async-suite': 'off',
       'mocha/no-identical-title': 'off',
       'mocha/no-mocha-arrows': 'off',
       'mocha/no-setup-in-describe': 'off',
@@ -120,10 +120,10 @@ export default tseslint.config(
           },
         },
       ],
+      'unicorn/name-replacements': 'off',
       'unicorn/no-await-expression-member': 'off',
       'unicorn/no-null': 'off',
       'unicorn/prefer-module': 'warn',
-      'unicorn/prevent-abbreviations': 'off',
     },
     settings: {
       'import-x/parsers': {
