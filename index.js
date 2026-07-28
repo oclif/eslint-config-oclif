@@ -87,6 +87,7 @@ export default tseslint.config(
       'n/no-missing-import': 'off',
       'n/no-process-exit': 'off', // Disabled in favor of unicorn/no-process-exit
       'n/no-unsupported-features/es-syntax': 'off',
+      'n/prefer-global/process': ['error', 'always'],
       'no-dupe-class-members': 'off',
       'no-redeclare': 'off',
       'no-unused-expressions': 'off',
