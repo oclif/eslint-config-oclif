@@ -89,6 +89,7 @@ export default tseslint.config(
       'n/no-unsupported-features/es-syntax': 'off',
       'n/prefer-global/process': ['error', 'always'],
       'no-dupe-class-members': 'off',
+      'no-implicit-globals': 'off',
       'no-redeclare': 'off',
       'no-unused-expressions': 'off',
       'no-unused-vars': 'off',
