@@ -71,6 +71,7 @@ export default tseslint.config(
       curly: 0,
       'default-case': 0,
       'import-x/no-unresolved': 'error',
+      'import-x/order': 'off', // Conflicts with 'perfectionist/sort-imports', which we already use.
       'jsdoc/require-jsdoc': 'off',
       'jsdoc/require-param': 'off',
       'jsdoc/require-param-type': 'off',
