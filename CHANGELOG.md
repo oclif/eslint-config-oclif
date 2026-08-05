@@ -1,3 +1,18 @@
+# [7.1.0](https://github.com/oclif/eslint-config-oclif/compare/6.0.179...7.1.0) (2026-08-05)
+
+
+### Features
+
+* additional futzing with eslint config (W-23473663) ([60022e0](https://github.com/oclif/eslint-config-oclif/commit/60022e0f99ba29fc4d521773a88e0d031498e543))
+* bumping to 7.0.0 (W-23473663) ([ca2b520](https://github.com/oclif/eslint-config-oclif/commit/ca2b5206f9b0b0b1d4f457867f624a46ef0c3f71))
+* configuring n/prefer-global/process (W-23473663) ([8a0b369](https://github.com/oclif/eslint-config-oclif/commit/8a0b369eafa164d2027185043c8f1457ea71e974))
+* disabled no-implicit-globals (W-23473663) ([3a2d390](https://github.com/oclif/eslint-config-oclif/commit/3a2d3900323c15003c562c49f54faeb4341bd02e))
+* disabling import-x/order (W-23473663) ([8fe58ab](https://github.com/oclif/eslint-config-oclif/commit/8fe58ab40885c0dd4b281f26d1cba4083ed6c9a0))
+* futzing with rules (W-23473663) ([a390181](https://github.com/oclif/eslint-config-oclif/commit/a390181e9cf01410752a29eb5d5c04cf39f78d03))
+* upgraded to eslint v10 (W-23473663) ([58607b7](https://github.com/oclif/eslint-config-oclif/commit/58607b70f3b64dda8ff38a0950e8a5f61e3cdf1d))
+
+
+
 ## [6.0.179](https://github.com/oclif/eslint-config-oclif/compare/6.0.178...6.0.179) (2026-07-26)
 
 
