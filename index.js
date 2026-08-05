@@ -1,22 +1,22 @@
 import eslint from '@eslint/js'
-import xo from 'eslint-config-xo/space'
-import importPlugin from 'eslint-plugin-import'
+import stylistic from '@stylistic/eslint-plugin'
+import xo from 'eslint-config-xo'
 import jsdoc from 'eslint-plugin-jsdoc'
 import mocha from 'eslint-plugin-mocha'
 import nodePlugin from 'eslint-plugin-n'
 import perfectionist from 'eslint-plugin-perfectionist'
-import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 import tseslint, {configs} from 'typescript-eslint'
+
+// Strip the plugins key from the import-plugin-n plugin, so that it doesn't conflict with the one used by xo.
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const {plugins: _, ...nodeRecommended} = nodePlugin.configs['flat/recommended']
 
 export default tseslint.config(
   eslint.configs.recommended,
   configs.recommended,
-  ...xo,
-  mocha.configs.flat.recommended,
-  nodePlugin.configs['flat/recommended'],
-  eslintPluginUnicorn.configs['flat/recommended'],
-  importPlugin.flatConfigs.recommended,
-  importPlugin.flatConfigs.typescript,
+  ...xo({space: true}).filter(c => ['xo/base', 'xo/ignores', 'xo/typescript'].includes(c.name)),
+  mocha.configs.recommended,
+  nodeRecommended,
   perfectionist.configs['recommended-natural'],
   jsdoc.configs['flat/recommended'],
   {
@@ -34,8 +34,7 @@ export default tseslint.config(
       },
     },
     plugins: {
-      mocha,
-      n: nodePlugin,
+      '@stylistic': stylistic,
     },
     rules: {
       '@stylistic/comma-dangle': ['error', 'always-multiline'],
@@ -57,6 +56,8 @@ export default tseslint.config(
         },
       ],
       '@stylistic/semi': 0,
+      '@typescript-eslint/naming-convention': 'off',
+      '@typescript-eslint/no-deprecated': 'off',
       '@typescript-eslint/no-dupe-class-members': 'error',
       '@typescript-eslint/no-redeclare': 'off',
       '@typescript-eslint/no-unused-vars': [
@@ -67,10 +68,12 @@ export default tseslint.config(
       ],
       '@typescript-eslint/no-useless-constructor': 'error',
       '@typescript-eslint/no-var-requires': 'off',
+      '@typescript-eslint/strict-boolean-expressions': 'off',
       'capitalized-comments': 0,
       curly: 0,
       'default-case': 0,
-      'import/no-unresolved': 'error',
+      'import-x/no-unresolved': 'error',
+      'import-x/order': 'off', // Conflicts with 'perfectionist/sort-imports', which we already use.
       'jsdoc/require-jsdoc': 'off',
       'jsdoc/require-param': 'off',
       'jsdoc/require-param-type': 'off',
@@ -78,14 +81,17 @@ export default tseslint.config(
       'jsdoc/require-returns-type': 'off',
       'jsdoc/tag-lines': 'off',
       'logical-assignment-operators': 'off',
-      'mocha/no-async-describe': 'off',
+      'mocha/no-async-suite': 'off',
       'mocha/no-identical-title': 'off',
       'mocha/no-mocha-arrows': 'off',
       'mocha/no-setup-in-describe': 'off',
       'n/hashbang': 0,
       'n/no-missing-import': 'off',
+      'n/no-process-exit': 'off', // Disabled in favor of unicorn/no-process-exit
       'n/no-unsupported-features/es-syntax': 'off',
+      'n/prefer-global/process': ['error', 'always'],
       'no-dupe-class-members': 'off',
+      'no-implicit-globals': 'off',
       'no-redeclare': 'off',
       'no-unused-expressions': 'off',
       'no-unused-vars': 'off',
@@ -121,16 +127,17 @@ export default tseslint.config(
           },
         },
       ],
+      'unicorn/name-replacements': 'off',
       'unicorn/no-await-expression-member': 'off',
       'unicorn/no-null': 'off',
+      'unicorn/no-useless-coercion': 'off', //  Disabled in favor of @typescript-eslint/no-unnecessary-type-conversion
       'unicorn/prefer-module': 'warn',
-      'unicorn/prevent-abbreviations': 'off',
     },
     settings: {
-      'import/parsers': {
+      'import-x/parsers': {
         '@typescript-eslint/parser': ['.ts', '.tsx'],
       },
-      'import/resolver': {
+      'import-x/resolver': {
         typescript: {
           alwaysTryTypes: true,
         },
