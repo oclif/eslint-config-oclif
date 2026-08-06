@@ -1,3 +1,12 @@
+## [7.1.1](https://github.com/oclif/eslint-config-oclif/compare/7.1.0...7.1.1) (2026-08-06)
+
+
+### Bug Fixes
+
+* **deps:** bump brace-expansion from 5.0.4 to 5.0.9 ([f167e67](https://github.com/oclif/eslint-config-oclif/commit/f167e677b9216bb83dea9d9546129f8b37fe4a77))
+
+
+
 # [7.1.0](https://github.com/oclif/eslint-config-oclif/compare/6.0.179...7.1.0) (2026-08-05)
 
 
