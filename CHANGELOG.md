@@ -1,3 +1,12 @@
+## [7.1.4](https://github.com/oclif/eslint-config-oclif/compare/7.1.3...7.1.4) (2026-08-09)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-jsdoc from 63.2.0 to 63.3.3 ([bc1d24c](https://github.com/oclif/eslint-config-oclif/commit/bc1d24cbcba9e0ff7430fe50e803ae78d673eb4a))
+
+
+
 ## [7.1.3](https://github.com/oclif/eslint-config-oclif/compare/7.1.2...7.1.3) (2026-08-09)
 
 
