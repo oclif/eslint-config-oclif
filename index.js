@@ -14,7 +14,20 @@ const {plugins: _, ...nodeRecommended} = nodePlugin.configs['flat/recommended']
 export default tseslint.config(
   eslint.configs.recommended,
   configs.recommended,
-  ...xo({space: true}).filter(c => ['xo/base', 'xo/ignores', 'xo/typescript'].includes(c.name)),
+  // Strip the '@typescript-eslint' and '@stylistic' plugins from xo's configs so they aren't
+  // registered twice. Both are direct dependencies here (via typescript-eslint and the '@stylistic'
+  // block below) and may resolve to a different version than the copies xo bundles; flat config
+  // throws "Cannot redefine plugin" when the same namespace is registered with two non-identical
+  // plugin objects. We register both namespaces ourselves, so xo can reference their rules without
+  // re-declaring the plugins.
+  ...xo({space: true})
+  .filter(c => ['xo/base', 'xo/ignores', 'xo/typescript'].includes(c.name))
+  .map(c => {
+    if (!c.plugins) return c
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const {'@stylistic': _stylistic, '@typescript-eslint': _tsPlugin, ...plugins} = c.plugins
+    return {...c, plugins}
+  }),
   mocha.configs.recommended,
   nodeRecommended,
   perfectionist.configs['recommended-natural'],
