@@ -1,3 +1,12 @@
+## [7.1.5](https://github.com/oclif/eslint-config-oclif/compare/7.1.4...7.1.5) (2026-08-10)
+
+
+### Bug Fixes
+
+* resolving plugin collision (W-23473663) ([e9ab80d](https://github.com/oclif/eslint-config-oclif/commit/e9ab80dca4a6bc79c4f5fc937bb4798147833f26))
+
+
+
 ## [7.1.4](https://github.com/oclif/eslint-config-oclif/compare/7.1.3...7.1.4) (2026-08-09)
 
 
