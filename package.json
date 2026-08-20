@@ -20,7 +20,7 @@
   "devDependencies": {
     "@oclif/prettier-config": "^0.2.1",
     "eslint": "^10",
-    "typescript": "^5"
+    "typescript": "^6.0.3"
   },
   "engines": {
     "node": ">= 20"
