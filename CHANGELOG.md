@@ -1,3 +1,12 @@
+## [7.1.8](https://github.com/oclif/eslint-config-oclif/compare/7.1.7...7.1.8) (2026-09-25)
+
+
+### Bug Fixes
+
+* **deps:** bump browserslist from 4.28.6 to 4.29.1 ([62457cd](https://github.com/oclif/eslint-config-oclif/commit/62457cda8f59bba8569f8c377fbf141851403c23))
+
+
+
 ## [7.1.7](https://github.com/oclif/eslint-config-oclif/compare/7.1.6...7.1.7) (2026-08-16)
 
 
