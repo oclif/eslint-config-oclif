@@ -1,3 +1,12 @@
+## [7.1.10](https://github.com/oclif/eslint-config-oclif/compare/7.1.9...7.1.10) (2026-10-09)
+
+
+### Bug Fixes
+
+* **deps:** bump source-map-js from 1.2.1 to 1.2.2 ([944f976](https://github.com/oclif/eslint-config-oclif/commit/944f9765ef2382b36ec02a9b01450ffb5c7ddf4e))
+
+
+
 ## [7.1.9](https://github.com/oclif/eslint-config-oclif/compare/7.1.8...7.1.9) (2026-10-09)
 
 
